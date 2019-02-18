@@ -5,6 +5,7 @@ import {
     ActivityIndicator,
 } from "react-native";
 import { ListItem } from "react-native-elements";
+import { PIXABAY_API_KEY } from 'react-native-dotenv';
 import axios from "axios";
 import { MonoText } from '../components/StyledText';
 
@@ -16,7 +17,7 @@ export default class ImageListScreen extends Component {
     state = {
         searchText: this.props.navigation.state.params.event,
         apiUrl: 'https://pixabay.com/api',
-        apiKey: '11536458-8352559f1be4f053d61f1732b',
+        apiKey: PIXABAY_API_KEY,
         images: [],
         loading: true,
         error: null
