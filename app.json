@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Image Search App",
-    "slug": "pixabay",
+    "name": "Pixabay Image Search",
+    "slug": "pixabay-image-search",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -24,6 +24,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "This is a react-native Image Search App which uses Pixabay API to fetch images.",
+    "githubUrl": "https://github.com/Rakhee06/Pixabay-Image-Search"
   }
 }
