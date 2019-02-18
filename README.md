@@ -10,8 +10,7 @@ This project is a react-native image search app which uses Pixabay API to fetch 
     
 ### Steps to View the App
 * Download Expo App from App Store
-* Scan the following QR code using the phone Camera App
-![QR](screenshots/QR-Code.png)
+* Scan the following QR code using the phone Camera App (at the bottom of the page)
 * The App opens up on your phone with a search screen
 
 ### Installing Locally
@@ -24,3 +23,5 @@ git clone git@github.com:Rakhee06/Pixabay-Image-Search.git
 * Create `.env` file and add your API key. e.g: `PIXABAY_API_KEY=xxxxxxx`
 * Start the app by running `expo start`
 
+### QR Code
+![QR](screenshots/QR-Code.png)
